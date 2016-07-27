@@ -1,3 +1,2 @@
-# MovieReSys
-### This is my bachelor thesis project. It's a movie recommender system, using database of MovieLens. The core of recommender system is constructed by Apache Mahout. 
-### I modified the Slope One algorithm by adding a timestamp to fit users' hobbies better. The core of recommender system is constructed by Apache Mahout. 
+## MovieReSys
+This is my bachelor thesis project, a movie recommender system, implemented in Java. Slope One algorithm is modified to try to forecast user preference considering the effect of time. Item-based, User-based collaborative filtering and the original Slope-one algorithms are compared with the modified Slope-one. With the MovieLens database, it shown that the modified Slope-one has a better prediction. However, the cost of time of the modified Slope-one is much larger then others.
